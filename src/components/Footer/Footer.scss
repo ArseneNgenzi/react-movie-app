@@ -1,0 +1,28 @@
+@import "../../common/colors.scss";
+.footer {
+ 
+  background: $secondary-color;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $font-primary;
+  margin-top: 5rem;
+//   flex-direction: column;
+
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    // border: 1px solid #000;
+    a {
+      text-transform: uppercase;
+      color: $font-primary;
+      svg {
+        fill: $font-secondary;
+      }
+    }
+  }
+
+}
+
